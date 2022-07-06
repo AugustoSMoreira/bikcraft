@@ -1,3 +1,82 @@
-p {
-  color: blue;
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-bg {
+  background-color: #000000;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a {
+  color: #ffffff;
+  display: inline-block;
+  padding: 16px 0px;
+  font-size: 1.125rem;
+  position: relative;
+}
+
+.header-menu a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  border-radius: 4px;
+  margin-top: 4px;
+  background: #ffffff;
+  position: absolute;
+  transition: 0.2s;
+}
+
+.header-menu a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .header-menu a::after {
+    display: none;
+  }
+
+  .header-menu a {
+    border: 1px solid #252525;
+    border-radius: 4px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-menu {
+    gap: 30px;
+  }
+
+  .header-menu a {
+    font-size: 0.9rem;
+  }
 }
