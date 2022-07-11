@@ -1,0 +1,26 @@
+/* Background */
+/* Cores Primárias */
+:root {
+  --primaria-0: #000000;
+  --primaria-1: #ffffff;
+  --primaria-2: #ffa500;
+}
+
+/* Cores Secundárias */
+:root {
+  --secundaria-0: #252525;
+  --secundaria-1: #c97f00;
+  --secundaria-2: #e09200;
+  --secundaria-3: #a76900;
+}
+
+/* Cores de Classe */
+.cor-0 {
+  color: #000000;
+}
+.cor-1 {
+  color: #ffffff;
+}
+.cor-2 {
+  color: #b2b2b2;
+}

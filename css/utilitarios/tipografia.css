@@ -1,0 +1,47 @@
+/* Títulos */
+.t-grande {
+  font: 600 3.56rem/1.2 "Poppins", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .t-grande {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .t-grande {
+    font-size: 2.7rem;
+  }
+}
+@media (max-width: 700px) {
+  .t-grande {
+    font-size: 2rem;
+  }
+}
+
+/* Parágrafos */
+.p-medio {
+  font: 400 1.3rem/1.6 "Roboto", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .p-medio {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 700px) {
+  .p-medio {
+    font-size: 1rem;
+  }
+}
+
+/* Header Menu */
+.h-menu {
+  font: 400 1.125rem "Poppins", sans-serif;
+}
+
+@media (max-width: 500px) {
+  .h-menu {
+    font-size: 0.997rem;
+  }
+}
