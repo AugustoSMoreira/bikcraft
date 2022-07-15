@@ -1,47 +1,90 @@
-/* Títulos */
-.t-grande {
-  font: 600 3.56rem/1.2 "Poppins", sans-serif;
+/* font-1-xs - mensal */
+.font-1-xs {
+  font: 400 0.75rem/1.35 "Poppins", sans-serif;
 }
 
-@media (max-width: 1000px) {
-  .t-grande {
-    font-size: 3rem;
-  }
+/* font-2-xs - Maior proteção possível... */
+.font-2-xs {
+  font: 400 0.875rem/1.43 "Roboto", sans-serif;
 }
-@media (max-width: 800px) {
-  .t-grande {
-    font-size: 2.7rem;
-  }
+
+/* font-1-s - Toda Bikcraft é equipada... */
+.font-1-s {
+  font: 400 1rem/1.5 "Poppins", sans-serif;
 }
-@media (max-width: 700px) {
-  .t-grande {
-    font-size: 2rem;
+
+/* font-2-s - Mensagem */
+.font-2-s {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+/* font-1-m - menu de navegação */
+.font-1-m {
+  font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+@media (max-width: 500px) {
+  .font-1-m {
+    font-size: 0.997rem;
   }
 }
 
-/* Parágrafos */
-.p-medio {
+/* font-1-m-b - R$ 2499 */
+.font-1-m-b {
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+/* font-2-m - Seguros */
+.font-2-m {
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+/* font-2-l - Bicicletas elétricas de alta precisão e qualidade... */
+.font-2-l {
   font: 400 1.3rem/1.6 "Roboto", sans-serif;
 }
-
 @media (max-width: 1000px) {
-  .p-medio {
+  .font-2-l {
     font-size: 1.1rem;
   }
 }
 @media (max-width: 700px) {
-  .p-medio {
+  .font-2-l {
     font-size: 1rem;
   }
 }
 
-/* Header Menu */
-.h-menu {
-  font: 400 1.125rem "Poppins", sans-serif;
+/* font-1-l - Motor Elétrico */
+.font-1-l {
+  font: 400 1.5rem/1.5 "Poppins", sans-serif;
+}
+/* font-2-l-b - TECNOLOGIA AVANÇADA */
+.font-2-l-b {
+  font: 500 1.3rem/1.6 "Roboto", sans-serif;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+/* font-1-xl - MAGIC MIGHT */
+.font-1-xl {
+  font: 600 2rem/1.25 "Poppins", sans-serif;
 }
 
-@media (max-width: 500px) {
-  .h-menu {
-    font-size: 0.997rem;
+/* font-1-xxl - Bicicletas feitas sob medida. */
+.font-1-xxl {
+  font: 600 3.56rem/1.2 "Poppins", sans-serif;
+}
+@media (max-width: 1000px) {
+  .font-1-xxl {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .font-1-xxl {
+    font-size: 2.7rem;
+  }
+}
+@media (max-width: 700px) {
+  .font-1-xxl {
+    font-size: 2rem;
   }
 }
