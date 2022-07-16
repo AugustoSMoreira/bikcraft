@@ -37,3 +37,18 @@
   border-radius: 10px;
   background-color: var(--primaria-2);
 }
+
+/* Links */
+.link {
+  display: block;
+  margin-bottom: 40px;
+  padding-bottom: 4px;
+  max-width: fit-content;
+  color: var(--primaria-2);
+  border-bottom: 4px solid var(--primaria-2);
+}
+
+.link:hover {
+  color: var(--secundaria-1);
+  border-bottom: 4px solid var(--secundaria-1);
+}
