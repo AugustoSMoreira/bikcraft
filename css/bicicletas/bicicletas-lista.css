@@ -55,3 +55,22 @@
   color: var(--secundaria-0);
   margin-left: 22px;
 }
+
+@media(max-width: 900px) {
+  .font-1-xl {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  .font-1-m-b {
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+@media(max-width: 600px) {
+  .bicicletas-lista {
+    padding-top: 20px;
+  }
+  .bicicletas-lista ul {
+    padding-bottom: 50px;
+  }
+}
