@@ -27,6 +27,12 @@
   }
 }
 
+/* Botão Secundário */
+.secundario {
+  background: var(--primaria-0);
+  color: var(--primaria-1);
+}
+
 /* Ponto Final */
 .ponto-final::after {
   content: "";
