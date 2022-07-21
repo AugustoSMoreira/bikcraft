@@ -1,0 +1,122 @@
+.bicicletas-main {
+  padding: 60px 0px;
+}
+
+.bicicletas-bg:nth-child(2) {
+  background-color: var(--primaria-0);
+  color: var(--primaria-1);
+  box-shadow: inset 320px 0px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.bicicletas-container {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.bicicletas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+}
+
+.bicicletas-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.bicicletas-img img {
+  object-fit: cover;
+  object-position: right;
+  width: 100%;
+  height: 100%;
+}
+
+.bicicletas-valor {
+  background-color: var(--primaria-0);
+  color: var(--primaria-1);
+  width: 70px;
+  padding: 8px 10px;
+  border-radius: 4px 0 0 4px;
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.bicicletas-conteudo h2,
+.bicicletas-conteudo p {
+  grid-column: 1 / -1;
+}
+
+.bicicletas-conteudo h2 {
+  position: relative;
+}
+
+.bicicletas-conteudo h2::before {
+  content: "";
+  width: 10px;
+  height: 6px;
+  display: block;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  background-color: var(--primaria-2);
+}
+
+.bicicletas-conteudo li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bicicletas-conteudo a {
+  place-self: end;
+  padding: 16px 42px;
+}
+
+@media (max-width: 900px) {
+  .bicicletas-conteudo a {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .bicicletas-container {
+    grid-template-columns: 1fr;
+  }
+
+  .bicicletas-bg:nth-child(2) {
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .bicicletas-conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .bicicletas-conteudo a {
+    place-self: start;
+  }
+}
+
+@media (max-width: 600px) {
+  .bicicletas-valor {
+    color: var(--primaria-2);
+        font-size: 0.7rem;
+        font-weight: 800;
+        width: 50px;
+        top: 0;
+        border-radius: 0 0 0 4px;
+  }
+}
