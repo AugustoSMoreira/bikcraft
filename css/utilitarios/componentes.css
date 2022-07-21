@@ -58,3 +58,34 @@
   color: var(--secundaria-1);
   border-bottom: 4px solid var(--secundaria-1);
 }
+
+/* Cabeçalho das Pág. Internas */
+
+.conteudo-bg {
+  background-color: var(--primaria-0);
+  color: var(--primaria-1);
+}
+
+.conteudo-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 10px;
+  max-width: 1000px;
+  padding: 60px 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 400px) {
+  .conteudo-container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .conteudo-container p {
+    font-size: 0.7rem;
+  }
+
+  .conteudo-container h1 {
+    font-size: 1.6rem;
+  }
+}

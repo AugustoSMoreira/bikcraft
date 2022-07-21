@@ -1,0 +1,22 @@
+.termos-bg {
+  background-color: var(--primaria-1);
+  color: var(--primaria-0);
+}
+
+.termos-container {
+  max-width: 90ch;
+  max-height: 300px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  overflow-y: auto;
+}
+
+.termos-container h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.termos-container p {
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
