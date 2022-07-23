@@ -1,0 +1,76 @@
+.catalogo-container {
+  max-width: 1000px;
+  padding: 60px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.catalogo-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.catalogo-img img {
+  flex: 1;
+  min-width: 200px;
+}
+
+.catalogo-img img:first-child {
+  min-width: 100%;
+}
+
+.catalogo-conteudo > h2 {
+  margin-bottom: 40px;
+}
+
+.catalogo-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.catalogo-btn--info span {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.catalogo-conteudo h3 {
+  margin-bottom: 40px;
+}
+
+.catalogo-vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 30px 20px;
+  margin-bottom: 40px;
+  background-color: var(--secundaria-0);
+}
+
+.catalogo-vantagens li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.catalogo-vantagens h2 {
+  margin-bottom: 6px;
+}
+
+.catalogo-tecnica {
+  background-color: var(--secundaria-0);
+  padding: 20px;
+}
+
+.catalogo-tecnica li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}

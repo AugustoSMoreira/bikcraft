@@ -41,7 +41,7 @@
 
 /* font-2-l - Bicicletas elétricas de alta precisão e qualidade... */
 .font-2-l {
-  font: 400 1.3rem/1.6 "Roboto", sans-serif;
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
 }
 @media (max-width: 1000px) {
   .font-2-l {
@@ -64,6 +64,11 @@
   letter-spacing: 0.015em;
   text-transform: uppercase;
 }
+
+.font-2-xl {
+  font: 500 2rem/1.25 "Roboto", sans-serif;
+}
+
 /* font-1-xl - MAGIC MIGHT */
 .font-1-xl {
   font: 600 2rem/1.25 "Poppins", sans-serif;
