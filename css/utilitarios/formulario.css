@@ -1,0 +1,53 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 40px 0px 20px;
+  gap: 20px;
+}
+
+.form div:nth-child(3),
+.form div:nth-child(4) {
+  grid-column: span 2;
+}
+
+.form label {
+  display: block;
+  font: 600 1rem/1.5 "Poppins", sans-serif;
+}
+
+.form button {
+  place-self: start;
+  grid-column: span 2;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-color: transparent;
+  border: 1px solid var(--primaria-2);
+  background-color: var(--secundaria-4);
+  width: 100%;
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  background-color: var(--primaria-1);
+  border: 1px solid var(--primaria-2);
+}
+
+@media (max-width: 800px) {
+  .form {
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .form div:nth-child(2),
+  .form div:nth-child(1) {
+    grid-column: span 2;
+  }
+}

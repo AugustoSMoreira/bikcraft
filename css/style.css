@@ -29,3 +29,8 @@
 
 /* Termos e Condições */
 @import "termos/termos.css";
+
+/* Contato */
+@import "contato/contato.css";
+@import "utilitarios/formulario.css";
+@import "contato/lojas.css";
