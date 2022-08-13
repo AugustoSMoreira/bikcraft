@@ -126,7 +126,8 @@ a {
 
 .orcamento-dados {
   border-radius: 0 5px 5px 0;
-  background: var(--primaria-0);
+  background: var(--secundaria-5);
+  color: var(--primaria-0);
 }
 
 .orcamento-conteudo {
