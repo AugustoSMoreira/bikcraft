@@ -86,7 +86,7 @@
 /* Cabeçalho das Pág. Internas */
 
 .conteudo-bg {
-  background-color: var(--primaria-0);
+  background: var(--primaria-0) url(../../img/dec/top-right.svg) no-repeat top 20px right 20px;
   color: var(--primaria-1);
 }
 
@@ -101,6 +101,10 @@
 }
 
 @media (max-width: 400px) {
+  .conteudo-bg {
+    background: var(--primaria-0);
+  }
+  
   .conteudo-container {
     padding-bottom: 30px;
     padding-top: 30px;
