@@ -1,7 +1,3 @@
-#orcamento {
-  background: linear-gradient(var(--primaria-0) 600px, var(--primaria-1) 0px);
-}
-
 .col-2 {
   grid-column: span 2;
 }
@@ -50,7 +46,7 @@ a {
 
 .orcamento-produto {
   border-radius: 5px 0 0 5px;
-  background: var(--primaria-0);
+  background: var(--secundaria-0);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -126,7 +122,8 @@ a {
 
 .orcamento-dados {
   border-radius: 0 5px 5px 0;
-  background: var(--primaria-0);
+  background: var(--secundaria-5);
+  color: var(--primaria-0);
 }
 
 .orcamento-conteudo {
@@ -176,7 +173,7 @@ a {
 
 .form-orcamento label {
   display: block;
-  font: 400 1rem/1.5 "Poppins", sans-serif;
+  font: 600 1rem/1.5 "Poppins", sans-serif;
   margin-bottom: 4px;
 }
 
@@ -189,7 +186,7 @@ a {
 .form-orcamento textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--primaria-1);
-  border: 1px solid var(--primaria-2);
+  border: 1px solid var(--secundaria-3);
   padding: 12px;
   border-radius: 4px;
   width: 100%;
