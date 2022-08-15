@@ -75,7 +75,7 @@ a {
 }
 
 .orcamento-produto input:checked + label {
-  background: var(--primaria-0);
+  background: var(--primaria-2);
   color: var(--primaria-1);
 }
 
@@ -97,7 +97,7 @@ a {
 }
 
 .orcamento-produto label:hover {
-  background-color: var(--primaria-2);
+  background-color: var(--primaria-0);
   border-color: var(--primaria-2);
 }
 

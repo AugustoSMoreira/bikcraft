@@ -15,3 +15,16 @@ function stayLink(link) {
 pinLink.forEach(stayLink);
 
 /* ============================================ */
+
+/* Marcar items do orçamento */
+
+const parameter = new URLSearchParams(location.search);
+
+function checkParameter(param) {
+  const element = document.getElementById(param);
+  if (element) {
+    element.checked = true;
+  }
+}
+
+parameter.forEach(checkParameter);
