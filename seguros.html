@@ -16,7 +16,9 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
-      <script defer src="./js/script.js"></script>
+    <script async src="./js/plugins/simple-anime.js"></script>
+    <script defer src="./js/script.js"></script>
+    <script>document.documentElement.classList.add('js')</script>
   </head>
   <body>
     <!-- menu navegação -->
@@ -45,7 +47,7 @@
       <!-- Seguros -->
     <article class="seguros-bg" aria-label="Seção de Seguros">
       <div class="seguros-container">
-        <div class="seguros-items">
+        <div  class="seguros-items fadeInLeft" data-anime="300">
           <div class="seguro-valor">
             <h3 class="font-1-xl">PRATA</h3>
             <span class="font-1-xl">R$ 199<small class="font-1-xs">mensal</small></span>
@@ -58,7 +60,7 @@
             </ul>              
             <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">INSCREVA-SE</a>
         </div>
-        <div class="seguros-items">
+        <div class="seguros-items fadeInRight" data-anime="300">
           <div class="seguro-valor">
             <h3 class="font-1-xl cor-3">OURO</h3>
             <span class="font-1-xl">R$ 299<small class="font-1-xs">mensal</small></span>

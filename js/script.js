@@ -52,3 +52,9 @@ function selectPic(picture) {
 }
 
 galery.forEach(selectPic);
+
+/* Plugin de Animação */
+
+if (SimpleAnime) {
+  new SimpleAnime();
+}

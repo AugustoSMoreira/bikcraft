@@ -5,6 +5,7 @@
 /* Utilitários */
 @import "./utilitarios/tipografia.css";
 @import "./utilitarios/cores.css";
+@import "./utilitarios/animacao.css";
 
 /* Componentes */
 @import "./utilitarios/componentes.css";
